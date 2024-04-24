@@ -1,4 +1,4 @@
-# BE_IT
+# BE_IT_Distributed System PL
 ## Savitribai Phule Pune University, Pune
 ## Final Year Information Technology (2019 Course)
 ## 414454: Lab Practice - V
