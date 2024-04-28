@@ -1,0 +1,63 @@
+**Assignment 1:**
+Open 3 terminal and execute following cmds:
+
+In terminal 1:
+1) javac Search.java
+2) javac SearchQuery.java
+3) rmic SearchQuery
+4) rmiregistry on console
+
+
+
+In terminal 2: Execute Server
+1) javac Server.java
+2) java Server
+		
+
+
+In terminal 2: Execute Client
+1) javac Client.java
+2} java Client
+
+
+
+**Assignment 2:**
+Open 3 terminal and execute following cmds:
+
+In terminal 1:
+1) idlj -fall Calc.idl
+2) javac *.java CalcApp
+3) orbd -ORBInitialPort 1050
+
+
+In terminal 2: Execute Server
+1) javac CalcServer.java
+2) java CalcServer -ORBInitialPort 1050
+
+		
+In terminal 3: Execute Client
+1) javac CalcClient.java
+2) java CalcClient -ORBInitialPort 1050
+
+
+
+**Assignment 3:**
+1) mpicc <filename>.c
+2) mpirun -np <N> ./a.out
+
+
+
+**Assignment 4:**
+One terminal required:
+1) javac <filename>.java
+2} java <filename>
+
+
+**Assignment 5:**
+1) javac <filename>.java
+2} java <filename>
+
+
+**Assignment 6:**
+1) javac <filename>.java
+2} java <filename>
