@@ -42,8 +42,29 @@ In terminal 3: Execute Client
 
 
 **Assignment 3:**
-1) mpicc <filename>.c
-2) mpirun -np <N> ./a.out
+1) Configure, compile and install by executing the following commands:
+
+ ./configure --prefix=$HOME/opt/openmpi
+
+ make all
+
+ make install
+
+
+2) Now openmpi folder is created in ‘opt‘ folder of Home directory.
+
+
+3) Now the folder LP5 can be deleted (optional)
+
+
+4) Update the PATH and LD_LIBRARY_PATH environment variable using:
+ 
+echo "export PATH=\$PATH:\$HOME/opt/openmpi/bin" >> $HOME/.bashrc
+ 
+echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:\$HOME/opt/openmpi/lib">>$HOME/.bashrc
+
+5) mpicc <filename>.c
+6) mpirun -np <N> ./a.out
 
 
 
